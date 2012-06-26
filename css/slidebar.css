@@ -3,7 +3,11 @@
 	border: none;
 	padding: 0;
 	margin: 0;
+	top: 0;
+	left: 0;
+
 	display: block;
+
 }
 
 .sb_wrap{
@@ -12,11 +16,16 @@
 	right: 0;
 	top: 0;
 	border: 1px solid #ddd;
+	background-color: #fff;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
 }
 
 .sb_bar{
 	display: block;
 	background-color: #cdcdcd;
 	position: absolute;
-
 }
